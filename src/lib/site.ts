@@ -12,6 +12,7 @@ export const rooms = [
   { name: "3 Sharing AC", price: 7500, detail: "Air-conditioned shared accommodation", tag: "Popular choice", image: "/images/room-3-sharing-ac.png" },
   { name: "2 Sharing Non-AC", price: 7000, detail: "Practical shared room for two residents", tag: "Value pick", image: "/images/room-2-sharing-non-ac.jpeg" },
   { name: "3 Sharing Non-AC", price: 6500, detail: "Affordable shared accommodation", tag: "Budget friendly", image: "/images/room-3-sharing-non-ac.jpeg" },
+  { name: "3 Sharing Hall", price: 5500, detail: "Economical shared accommodation", tag: "Most budget-friendly", image: "/images/gallery-room-1.png" },
 ];
 
 export const amenities = [
