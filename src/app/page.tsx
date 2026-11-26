@@ -5,6 +5,45 @@ import RoomImage from "@/components/RoomImage";
 import ReviewsSection from "@/components/ReviewsSection";
 import WhatsAppIcon from "@/components/WhatsAppIcon";
 
+export const metadata: Metadata = {
+  title: "PG in Adajan, Surat | Room Options & Monthly Rent",
+  description: "Compare 2-sharing and 3-sharing AC and non-AC PG rooms at LP Savani PG near LP Savani Circle, Adajan, Surat. Plans start at ₹5,500 per person per month. Enquire for current availability.",
+  alternates: { canonical: "/" },
+};
+
+const localBusinessSchema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LodgingBusiness",
+      "@id": "https://sms-pg-adajan.vercel.app/#business",
+      name: "LP Savani PG",
+      url: "https://sms-pg-adajan.vercel.app/",
+      description: "Shared paying guest accommodation near LP Savani Circle in Adajan, Surat, with 2-sharing and 3-sharing AC and non-AC room options for students and working professionals.",
+      telephone: "+919313842276",
+      address: { "@type": "PostalAddress", streetAddress: "C1, Vaibhav Laxmi Row House, Ugat Canal Road", addressLocality: "Adajan, Surat", addressRegion: "Gujarat", postalCode: "395009", addressCountry: "IN" },
+      contactPoint: { "@type": "ContactPoint", telephone: "+919313842276", contactType: "enquiries", availableLanguage: ["English", "Hindi", "Gujarati"] },
+      priceRange: "₹5,500–₹8,000 per person/month",
+      amenityFeature: [
+        { "@type": "LocationFeatureSpecification", name: "Wi-Fi", value: true },
+        { "@type": "LocationFeatureSpecification", name: "CCTV security in common areas", value: true },
+        { "@type": "LocationFeatureSpecification", name: "Power backup", value: true },
+        { "@type": "LocationFeatureSpecification", name: "Laundry facilities", value: true },
+        { "@type": "LocationFeatureSpecification", name: "Kitchen access", value: true }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sms-pg-adajan.vercel.app/#website",
+      url: "https://sms-pg-adajan.vercel.app/",
+      name: "LP Savani PG",
+      inLanguage: "en-IN",
+      publisher: { "@id": "https://sms-pg-adajan.vercel.app/#business" }
+    }
+  ]
+};
+
+
 const iconMap = { wifi: Wifi, shield: ShieldCheck, zap: Zap, bed: BedDouble, "map-pin": MapPin, utensils: Utensils, "washing-machine": WashingMachine, "cooking-pot": CookingPot } as const;
 const faqs = [
   { q: "Where is LP Savani PG located?", a: "We are located near LP Savani Circle in Adajan, Surat. Contact us on WhatsApp for the exact address and directions." },

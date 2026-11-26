@@ -1,8 +1,8 @@
 export const site = {
   name: "LP SAVANI PG",
   location: "LP Savani Circle, Adajan, Surat, Gujarat",
-  // IMPORTANT: Replace this with the PG's WhatsApp number in international format.
-  // Example: 919876543210 (country code + number, no +, spaces or dashes).
+  address: "C1, Vaibhav Laxmi Row House, Ugat Canal Road, Adajan, Surat, Gujarat 395009",
+  phone: "+919313842276",
   whatsappNumber: "919313842276",
   foodNote: "Optional food service: ₹1,500 one-time. Lunch and dinner only; breakfast is not available.",
 };
