@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { ArrowDown, ArrowRight, BedDouble, Check, ChevronDown, Clock3, MapPin, ShieldCheck, Sparkles, Wifi, Zap, Utensils, Menu, Phone, Star, Users, Building2, WashingMachine, CookingPot } from "lucide-react";
 import { amenities, rooms, site } from "@/lib/site";
 import WhatsAppLink from "@/components/WhatsAppLink";
